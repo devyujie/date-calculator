@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #303080;
+  color: orange;
+  font-family: "楷体";
+}
+
+#con {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.notselect {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0 10px 0;
+}
+
+.title-sub {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.calculator {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.calculator-old {
+  width: 300px;
+  margin: 0 auto;
+}
+input {
+  width: 60px;
+  height: 20px;
+  padding: 3px 0 3px 5px;
+  outline: none;
+  border: none;
+}
+.calculator-new {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.clip-line {
+  margin: 15px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.calculato-button {
+  text-align: center;
+  margin-right: 25px;
+  margin-top: 60px;
+}
+.calculato-button a {
+  cursor: pointer;
+  text-decoration: none;
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+.calculato-button p {
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+}
